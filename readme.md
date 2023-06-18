@@ -10,9 +10,10 @@ This is an azure analytics demonstration for an atm system. The system is compos
 
 ## Setup
 
-In the below photo you can see the architecture of the system.
+Below you can see the architecture of the system:
 
-![355422582_1055957555366625_1727676645423774939_n.png](355422582_1055957555366625_1727676645423774939_n.png)
+![Screenshot_121](https://github.com/maarioos1308/AzureStreamAnalytics/assets/93925338/0164e77e-9b0d-496d-a872-7c2e8f4e6b1b)
+
 
 
 ## Query
@@ -139,8 +140,8 @@ The query output looks like this:
 {"StartTime":"2023-06-18T13:00:00.0000000Z","ATM_City":"Tacoma","Customer_Gender":"Female","TotalAmount":719.0}
 
 ### Explanation
-In order query 7 and query 8 to work we used with clause to create tables that will be used in the queries.
-You can see below the tables that we created.
+In order query 7 and query 8 to work we used <code>WITH</code> clause to create tables that will be used in the queries.
+You can see below the tables that we created:
 
 ```sql
 WITH 
